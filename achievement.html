@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements Showcase</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap');
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+    :root {
+        /* Core Color System - Dark Theme */
+        --primary-hue: 260;
+        --accent-hue: 165;
+
+        /* Primary Colors */
+        --primary-100: hsl(var(--primary-hue), 90%, 90%);
+        --primary-200: hsl(var(--primary-hue), 85%, 80%);
+        --primary-300: hsl(var(--primary-hue), 80%, 70%);
+        --primary-400: hsl(var(--primary-hue), 75%, 60%);
+        --primary-500: hsl(var(--primary-hue), 80%, 50%);  /* Main primary color */
+        --primary-600: hsl(var(--primary-hue), 85%, 40%);
+        --primary-700: hsl(var(--primary-hue), 90%, 30%);
+        --primary-800: hsl(var(--primary-hue), 95%, 20%);
+        --primary-900: hsl(var(--primary-hue), 100%, 10%);
+
+        /* Accent Colors */
+        --accent-100: hsl(var(--accent-hue), 90%, 90%);
+        --accent-200: hsl(var(--accent-hue), 85%, 80%);
+        --accent-300: hsl(var(--accent-hue), 80%, 70%);
+        --accent-400: hsl(var(--accent-hue), 75%, 60%);
+        --accent-500: hsl(var(--accent-hue), 80%, 50%);  /* Main accent color */
+        --accent-600: hsl(var(--accent-hue), 85%, 40%);
+        --accent-700: hsl(var(--accent-hue), 90%, 30%);
+        --accent-800: hsl(var(--accent-hue), 95%, 20%);
+        --accent-900: hsl(var(--accent-hue), 100%, 10%);
+
+        /* Neutral Colors */
+        --neutral-50: hsl(220, 20%, 98%);
+        --neutral-100: hsl(220, 15%, 95%);
+        --neutral-200: hsl(220, 15%, 90%);
+        --neutral-300: hsl(220, 10%, 80%);
+        --neutral-400: hsl(220, 10%, 70%);
+        --neutral-500: hsl(220, 10%, 60%);
+        --neutral-600: hsl(220, 10%, 50%);
+        --neutral-700: hsl(220, 10%, 30%);
+        --neutral-800: hsl(220, 15%, 15%);
+        --neutral-900: hsl(220, 20%, 10%);
+        --neutral-950: hsl(220, 30%, 6%);
+
+        /* Semantic Colors */
+        --success: hsl(142, 70%, 45%);
+        --warning: hsl(45, 100%, 60%);
+        --error: hsl(354, 70%, 54%);
+        --info: hsl(200, 70%, 50%);
+
+        /* Component Colors */
+        --surface-0: hsl(220, 25%, 5%);
+        --surface-1: hsl(220, 20%, 8%);
+        --surface-2: hsl(220, 15%, 12%);
+        --surface-3: hsl(220, 10%, 15%);
+        --surface-4: hsl(220, 10%, 18%);
+
+        /* Typography */
+        --text-primary: hsl(220, 15%, 95%);
+        --text-secondary: hsl(220, 10%, 80%);
+        --text-tertiary: hsl(220, 10%, 65%);
+        --text-disabled: hsl(220, 10%, 40%);
+
+        --heading-font: 'Rajdhani', sans-serif;
+        --body-font: 'Montserrat', sans-serif;
+
+        /* Borders & Shadows */
+        --border-thin: 1px;
+        --border-regular: 2px;
+        --border-thick: 4px;
+
+        --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.15);
+        --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.2);
+        --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.25), 0 5px 10px rgba(0, 0, 0, 0.3);
+        --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.3), 0 10px 15px rgba(0, 0, 0, 0.35);
+
+        /* Animation Timing */
+        --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+        --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+        --ease-in-out-quad: cubic-bezier(0.45, 0, 0.55, 1);
+
+        /* Spacing System */
+        --space-unit: 8px;
+        --space-xs: calc(0.5 * var(--space-unit));
+        --space-sm: calc(1 * var(--space-unit));
+        --space-md: calc(2 * var(--space-unit));
+        --space-lg: calc(3 * var(--space-unit));
+        --space-xl: calc(4 * var(--space-unit));
+        --space-2xl: calc(6 * var(--space-unit));
+        --space-3xl: calc(8 * var(--space-unit));
+        --space-4xl: calc(10 * var(--space-unit));
+
+        /* Border Radius */
+        --radius-sm: 4px;
+        --radius-md: 8px;
+        --radius-lg: 12px;
+        --radius-xl: 16px;
+        --radius-2xl: 24px;
+        --radius-full: 9999px;
+    }
+
+    /* Advanced Browser Resets */
+    *, *::before, *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 62.5%; /* 10px base for easier rem calculations */
+        line-height: 1.5;
+        color-scheme: dark;
+    }
+
+    body {
+        font-family: var(--body-font);
+        font-size: 1.6rem;
+        background: var(--surface-0);
+        color: var(--text-primary);
+    }
+
+    /* Section Styling */
+    .section-title {
+        text-align: center;
+        margin-bottom: var(--space-2xl);
+        position: relative;
+    }
+
+    .section-title h2 {
+        position: relative;
+        display: inline-block;
+        margin-bottom: var(--space-md);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-family: var(--heading-font);
+        color: var(--primary-300);
+        font-size: 3.2rem;
+    }
+
+    .section-title h2::before,
+    .section-title h2::after {
+        content: '';
+        position: absolute;
+        height: 3px;
+        bottom: -10px;
+        border-radius: var(--radius-full);
+    }
+
+    .section-title h2::before {
+        width: 80px;
+        background: linear-gradient(90deg, var(--primary-500), var(--accent-500));
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .section-title h2::after {
+        width: 10px;
+        background: var(--primary-300);
+        left: 50%;
+        margin-left: -45px;
+        bottom: -16px;
+    }
+
+    .section-title p {
+        font-size: 1.8rem;
+        color: var(--text-secondary);
+        max-width: 800px;
+        margin: var(--space-md) auto 0;
+    }
+
+    .section-title .highlight {
+        color: var(--primary-400);
+    }
+
+    /* Container */
+    .container {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+    }
+
+    /* Header Styling */
+    header {
+        background: var(--surface-1);
+        padding: var(--space-3xl) 0;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    header::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, var(--primary-900), transparent 70%);
+        opacity: 0.4;
+        z-index: 0;
+    }
+
+    header h1 {
+        position: relative;
+        font-family: var(--heading-font);
+        color: var(--primary-300);
+        font-size: 4.2rem;
+        margin-bottom: var(--space-md);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        z-index: 1;
+    }
+
+    header p {
+        position: relative;
+        color: var(--text-secondary);
+        font-size: 1.8rem;
+        max-width: 600px;
+        margin: 0 auto;
+        z-index: 1;
+    }
+
+    /* Achievement Section */
+    #achievements {
+        padding: var(--space-4xl) 0;
+        background-color: var(--surface-0);
+        position: relative;
+    }
+
+    .achievements-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: var(--space-xl);
+        margin-top: var(--space-xl);
+    }
+
+    .achievement-card {
+        background: var(--surface-2);
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        box-shadow: var(--shadow-lg);
+        transition: all 500ms var(--ease-out-expo);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .achievement-card:hover {
+        transform: translateY(-10px);
+        box-shadow: var(--shadow-xl);
+    }
+
+    .achievement-image {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .achievement-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 500ms var(--ease-out-expo);
+    }
+
+    .achievement-card:hover .achievement-image img {
+        transform: scale(1.05);
+    }
+
+    .achievement-content {
+        padding: var(--space-xl);
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .achievement-title {
+        font-family: var(--heading-font);
+        color: var(--primary-300);
+        font-size: 2.4rem;
+        margin-bottom: var(--space-sm);
+        position: relative;
+        padding-bottom: var(--space-xs);
+    }
+
+    .achievement-title::after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 2px;
+        background: linear-gradient(90deg, var(--primary-500), var(--accent-500));
+        bottom: 0;
+        left: 0;
+        border-radius: var(--radius-full);
+    }
+
+    .achievement-date {
+        display: inline-block;
+        background: var(--surface-3);
+        color: var(--accent-400);
+        font-size: 1.4rem;
+        padding: var(--space-xs) var(--space-md);
+        border-radius: var(--radius-full);
+        margin-bottom: var(--space-md);
+        align-self: flex-start;
+    }
+
+    .achievement-description {
+        color: var(--text-secondary);
+        margin-top: var(--space-md);
+        line-height: 1.6;
+    }
+
+    /* Footer Styling */
+    footer {
+        background: var(--surface-2);
+        color: var(--text-secondary);
+        padding: var(--space-xl) 0;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    footer p {
+        margin-bottom: var(--space-md);
+    }
+
+    footer a {
+        color: var(--primary-500);
+        text-decoration: none;
+        transition: color 300ms var(--ease-out-quart);
+    }
+
+    footer a:hover {
+        color: var(--primary-400);
+    }
+
+    footer .social-links {
+        display: flex;
+        justify-content: center;
+        gap: var(--space-md);
+        margin-bottom: var(--space-md);
+    }
+
+    footer .social-links a {
+        font-size: 2.4rem;
+    }
+
+    /* Media Queries */
+    @media (min-width: 768px) {
+        .achievements-grid {
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
+    }
+
+    @media (min-width: 992px) {
+        .achievements-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header role="banner">
+        <div class="container">
+            <h1>Our Achievements</h1>
+            <p>Celebrating our excellence and recognition</p>
+        </div>
+    </header>
+
+    <!-- Achievements Section -->
+    <main role="main">
+        <section id="achievements" role="region" aria-labelledby="achievements-title">
+            <div class="container">
+                <div class="section-title">
+                    <h2 id="achievements-title"><span class="highlight">Achievements</span></h2>
+                    <p>Recognizing our dedication to excellence and outstanding performance in various competitions</p>
+                </div>
+
+                <div class="achievements-grid">
+                    <!-- House Cup I Card -->
+                    <div class="achievement-card">
+                        <div class="achievement-image">
+                            <img src="https://res.cloudinary.com/dxomzjhhj/image/upload/v1742752664/WhatsApp_Image_2025-03-23_at_23.26.46_32165be3_q7of2w.jpg" alt="House Cup I Trophy - Winning Team Celebrating">
+                        </div>
+                        <div class="achievement-content">
+                            <h3 class="achievement-title">House Cup I</h3>
+                            <span class="achievement-date">2023-2024</span>
+                            <p class="achievement-description">
+                                We proudly secured the House Cup I championship for the academic year 2023-2024. This prestigious award recognizes excellence in academics, sports, and extracurricular activities. Our team demonstrated exceptional talent, determination, and teamwork throughout the year.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- House Cup II Card -->
+                    <div class="achievement-card">
+                        <div class="achievement-image">
+                            <img src="https://res.cloudinary.com/dxomzjhhj/image/upload/v1742742890/Achivement/lhnfdvhst4lmq5k37dyh.jpg" alt="House Cup II Trophy - Engraved Trophy on Display">
+                        </div>
+                        <div class="achievement-content">
+                            <h3 class="achievement-title">House Cup II</h3>
+                            <span class="achievement-date">2024-2025</span>
+                            <p class="achievement-description">
+                                Building on our previous success, we are honored to win the House Cup II for the 2024-2025 academic year. This consecutive victory highlights our commitment to excellence and continuous improvement in all areas of competition and collaboration.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Art Gallery Award Card -->
+                    <div class="achievement-card">
+                        <div class="achievement-image">
+                            <img src="https://res.cloudinary.com/dxomzjhhj/image/upload/v1742742889/Achivement/whd4qzmflhnljo8q95yc.jpg" alt="Art Gallery Award -  Diverse Art Pieces in the Gallery">
+                        </div>
+                        <div class="achievement-content">
+                            <h3 class="achievement-title">Art Gallery Award</h3>
+                            <span class="achievement-date">2024-2025</span>
+                            <p class="achievement-description">
+                                Our creative talents were recognized with the prestigious Art Gallery Award for the 2024-2025 season. This award celebrates innovation, artistic expression, and cultural contribution. Our exhibition featured diverse artworks that captivated audiences and critics alike.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2025 Achievement Showcase. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

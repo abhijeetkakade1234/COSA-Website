@@ -1,0 +1,357 @@
+[
+    {
+        "id": 1,
+        "title": "Computer Project Competition",
+        "dept": "computer",
+        "details": "Build Big, Dream Bigger!",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹200 per team",
+        "coordinator": "Mayuri Fulpagare-7249659538",
+        "link": "https://gcoerc-cosa.netlify.app/#techguru"
+    },
+    {
+        "id": 2,
+        "title": "Coding Competition",
+        "dept": "computer",
+        "details": "Crack the Code, Rule the Future!.",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹50 per participant",    
+        "coordinator": "Abhijeet Kakade : 8262066827",
+        "link": "https://gcoerc-cosa.netlify.app/#techguru"
+    },
+    {
+        "id": 3,
+        "title": "AI Prompt Competition",
+        "dept": "computer",
+        "details": "Prompt. Innovate. Dominate.",
+        "date": "2025-03-29",
+        "time": "10:00 AM",
+        "entry_fee": "₹50 per participant",     
+        "coordinator": "Aaradhya Pathak 9511779317",
+        "link": "https://gcoerc-cosa.netlify.app/#techguru"
+    },
+    {
+        "id": 6,
+        "title": "Stumble Guys",
+        "dept": "computer",
+        "details": "Play to win.",
+        "date": "2025-03-29",
+        "time": "12:00 AM",
+        "entry_fee": "₹50 per participant",
+        "coordinator": "Omkar Korde- 9623874116",
+        "link": "https://gcoerc-cosa.netlify.app/#techguru"
+    },
+    
+    {
+        "id": 4,
+        "title": "Rodies",
+        "dept": "computer",
+        "details": "Play Exiting Games With Team",
+        "date": "2025-03-29",
+        "time": "10:00 AM",
+        "entry_fee": "₹100 per team",
+        "coordinator": "Jai Lindait - 98811 72467",
+        "link": "https://gcoerc-cosa.netlify.app/#techguru"
+    },
+    {
+        "id": 5,
+        "title": "Neon Cricket",
+        "dept": "computer",
+        "details": "Lights On, Game Strong!.",
+        "date": "2025-03-29",
+        "time": "11:00 AM",
+        "entry_fee": "₹250",
+        "coordinator": "Rayyan-8485002132",
+        "link": "https://gcoerc-cosa.netlify.app/#techguru"
+    },
+    {
+        "id": 7,
+        "title": "Electrical Project Competition",
+        "dept": "electrical",
+        "details": "Power up your innovation.!",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": " 200 rs per person",
+        "coordinator": "7588135117 (Amrutesh Kolhe)",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSd7MnsRIAOuY6QoxoBEM0In1a1DLYX0oyLYoiqnmmU8nbb4vg/viewform"
+    },
+    {
+        "id": 8,
+        "title": "PBL Competition",
+        "dept": "electrical",
+        "details": "micro projects prepared by student.",
+        "date": "2025-03-29",
+        "time": "10:00 AM",
+        "entry_fee": "₹50 per participant",    
+        "coordinator": "9960851238 (Rushikesh Sahane)",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSec0-gI3uxl33Q1Ag6nf2lM3lXUva2B7VlxK4zxtISXHUOZbA/viewform"
+    },
+    {
+        "id": 9,
+        "title": "Poster Making",
+        "dept": "electrical",
+        "details": "Create The Creativity",
+        "date": "2025-03-29",
+        "time": "10:00 AM",
+        "entry_fee": "₹50 per participant",     
+        "coordinator": "9503549658(Siddharth Pawar)",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSd86rjotmtE6l9g8IWRbOqvQSWQYzOCuNZvkhOgpLkUF-0GhQ/viewform?usp=header"
+    },
+    {
+        "id": 10,
+        "title": "Power Lifting",
+        "dept": "electrical",
+        "details": "Play to win.",
+        "date": "2025-03-29",
+        "time": "12:00 AM",
+        "entry_fee": "₹50 per participant",
+        "coordinator": "Omkar Toche (8805640342)",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSflEjWpXq4kuWYBShrkKSFHyE1cM3Qtgrl4EKtrkoaExVZiFA/viewform?usp=header"
+    },
+    
+    {
+        "id": 11,
+        "title": "BGMI",
+        "dept": "electrical",
+        "details": "Play Exiting Games With Team",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹50 per player",
+        "coordinator": "Vaibhav Randhe 8767086611",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSdxZ4qxBoTfrVHvjEyq90H2tqMRYZKt-Ny8R8DNIl1BuWv8Yg/viewform?usp=header"
+    },
+    {
+        "id": 12,
+        "title": "Civil Project Competition",
+        "dept": "civil",
+        "details": "design, plan, and execute innovative projects.",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹200 ",
+        "coordinator": "Tejas Mahale - 9579224477",
+        "link": "https://forms.gle/3xL12HEm8bWacxU28"
+    },
+    
+    {
+        "id": 13,
+        "title": "Bridge-O-Mania",
+        "dept": "civil",
+        "details": "Test your structural ingenuity, teamwork, and problem-solving abilities as you compete",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹200",
+        "coordinator": "Darshan S Shingane 9322600762",
+        "link": "https://forms.gle/EKLg4txeDWE3kGwc6"
+    },
+    {
+        "id": 14,
+        "title": "Revit Carnival",
+        "dept": "civil",
+        "details": "Exciting Design Challenges – Push your creativity and technical skills.",
+        "date": "2025-03-29",
+        "time": "10:00 AM",
+        "entry_fee": "₹150",
+        "coordinator": "Rushali Shinde - 7744965975",
+        "link": "https://forms.gle/Evzw9pkZxbwoSwFAA"
+    },
+    {
+        "id": 15,
+        "title": "Calci War",
+        "dept": "civil",
+        "details": "Solve complex math and logic problems that will test your mental agility.",
+        "date": "2025-03-29",
+        "time": "10:00 AM",
+        "entry_fee": "₹70",
+        "coordinator": "Nayan Ahire: 7558397957",
+        "link": "https://forms.gle/fwLm5ifmPiguRgkz7"
+    },
+    
+    {
+        "id": 16,
+        "title": "Futsal",
+        "dept": "civil",
+        "details": "electrifying football showdown",
+        "date": "2025-03-28",
+        "time": "9:00 AM",
+        "entry_fee": "₹500 per team",
+        "coordinator": "Arav Adangle -7057357482",
+        "link": "https://forms.gle/xc58yZ3dbH3ab5MSA"
+    },
+    {
+        "id": 17,
+        "title": "Volleyball League",
+        "dept": "civil",
+        "details": " High-energy matches.",
+        "date": "2025-03-28",
+        "time": "9:00 AM",
+        "entry_fee": "₹300 per team",
+        "coordinator": "Prasad Sanap - 9307493031",
+        "link": "https://forms.gle/afEscti9jir5ojQP7"
+    },
+    
+    {
+        "id": 18,
+        "title": "Mechanical Project Competition",
+        "dept": "mechanical",
+        "details": "Innovate Today, Lead Tomorrow",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹200 ",
+        "coordinator": "Kajal Patil- 9561936261",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSedwVOIe1Tps_Tk6dNmGcOiBqlxny4WJBpXjgb0cLGQcqaUPA/viewform"
+    },
+    {
+        "id": 19,
+        "title": "Contraption",
+        "dept": "mechanical",
+        "details": "Ignite the Spark!.",
+        "date": "2025-03-29",
+        "time": "10:00 AM",
+        "entry_fee": "₹200",
+        "coordinator": "Aarti Desale: 9689757601",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSejcX4flmbN4YaG7u0CVFjbj4SSh8i6kx25hvQynM1MeR0XFw/viewform"
+    },
+    
+    {
+        "id": 20,
+        "title": "DIY Group",
+        "dept": "mechanical",
+        "details": "Exciting DIY Competition!",
+        "date": "2025-03-29",
+        "time": "10:00 AM",
+        "entry_fee": "₹300 per team",
+        "coordinator": "Tejas Dhongade - 8830538212",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLScv1-NYWqhWABvHJCn9AgwUbtzU42UzavsY4dtpd3uTLerWcA/viewform"
+    },
+    {
+        "id": 21,
+        "title": "Box Cricket",
+        "dept": "mechanical",
+        "details": "exciting variation of the traditional cricket game",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹350 per team",
+        "coordinator": "Shyam Avhad- 8149200915",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSdGX5lrjVuaOgDauxygjPv0t96kUhH5VD1LHBhpgiFBiRT7fw/viewform"
+    },
+    {
+        "id": 22,
+        "title": "Technical Treasure Hunt",
+        "dept": "aids",
+        "details": "Find The Treasure.",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹200",
+        "coordinator": "Shravani Pisal [8459237963]",
+        "link": "https://forms.gle/z76arhuHQDGLwK3x9"
+    },
+    
+    {
+        "id": 23,
+        "title": "Talent Show",
+        "dept": "aids",
+        "details": "2-3 minutes per act",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹150 per team",
+        "coordinator": "Ashish Jagzap(7498791248)",
+        "link": "https://forms.gle/rsSPpAbGtZtK7Jie8"
+    },
+    {
+        "id": 24,
+        "title": "Blindfold Maze",
+        "dept": "aids",
+        "details": "Find The Path!",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹50 per Team",
+        "coordinator": "Gautam Mhetre (7058146651 )",
+        "link": "https://forms.gle/zmPqf6Y58sRTK4kVA"
+    },
+    
+    {
+        "id": 25,
+        "title": "Robo Race",
+        "dept": "ar",
+        "details": "ROBO-RACE Play & Win",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹200 per team",
+        "coordinator": "Aryan Sonar ",
+        "link": "https://forms.gle/LJFGECHPx6na24Zb6"
+    },
+    {
+        "id": 26,
+        "title": "Chess",
+        "dept": "ar",
+        "details": "Checkmate!!! the Opponent",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹50",
+        "coordinator": "Aryan Sonar",
+        "link": "https://forms.gle/dCArMfvtk7j3bc7L7"
+    },
+    {
+        "id": 31,
+        "title": "Basketball Tournament ",
+        "dept": "ar",
+        "details": "Play To win",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹300",
+        "coordinator": "Aryan Sonar",
+        "link": "https://forms.gle/w1t81En74J5ZQpvx7"
+    },
+    
+    {
+        "id": 27,
+        "title": "Visual Antakshari",
+        "dept": "management",
+        "details": "Unique Way of Antakshari",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹50",
+        "coordinator": "NaN",
+        "link": "https://forms.gle/Wvj9vW7tfrDmH1yh8"
+    },
+    {
+        "id": 28,
+        "title": "Ad Mad Show",
+        "dept": "management",
+        "details": "Create Creative Ads.",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹50",
+        "coordinator": "NaN",
+        "link": "https://forms.gle/MXxfT83rAcgAHShy8"
+    },
+    {
+        "id": 29,
+        "title": "Quiz Competition",
+        "dept": "bes-iedc",
+        "details": "Give Correct Answer and win.",
+        "date": "2025-03-28",
+        "time": "10:00 AM",
+        "entry_fee": "₹200 per team",
+        "coordinator": "Kunal Baviskar - 7058 764988",
+        "link": "https://forms.gle/SpkFmsuXP6Cyiaou9"
+    },
+    
+    {
+        "id": 30,
+        "title": "Shark Tank",
+        "dept": "bes-iedc",
+        "details": "Pitch Your Ideas and get Funding",
+        "date": "2025-03-29",
+        "time": "10:00 AM",
+        "entry_fee": "₹300",
+        "coordinator": "Mihir Sonawane : 92846 50140",
+        "link": "https://forms.gle/KmuyodBhoZoJ4sVLA"
+    }
+    
+   
+]
+
+
