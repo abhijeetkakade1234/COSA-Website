@@ -1,3 +1,9 @@
+// Loader logic
+window.addEventListener("load", () => {
+  document.body.classList.add("loaded"); // Hides the loader
+  document.getElementById("main-content").classList.remove("hidden"); // Shows the main content
+});
+// Navbar logic
 document.addEventListener("DOMContentLoaded", function () {
   const hamburger = document.querySelector(".hamburger");
   const navLinks = document.querySelector(".nav-links");
@@ -118,7 +124,7 @@ function getTimeDateContent(eventName) {
   const dates = {
     project: "March 28, 2025",
     coding: "March 28, 2025",
-    neoncricket: "March 29, 2025",
+    neoncricket: "March 28, 2025",
     roadies: "March 29, 2025",
     aiprompting: "March 29, 2025",
     stumbleguys: "March 28, 2025",
