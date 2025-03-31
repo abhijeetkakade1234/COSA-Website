@@ -1567,6 +1567,7 @@ footer a:hover {
   .member-info p {
     font-size: 0.9rem;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
   }
 }
 
