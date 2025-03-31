@@ -990,99 +990,143 @@ section {
   }
 }
 
-/* Footer Styles */
+
+/* ---------------------------------- */
+/* Footer Styling - Premium Design    */
+/* ---------------------------------- */
+
 footer {
-  background-color: var(--surface-2); /* Footer background color */
-  color: var(--text-primary); /* Footer text color */
-  padding: 20px 0; /* Add padding for spacing */
-  text-align: center; /* Center-align all footer content */
+  background: linear-gradient(to bottom, var(--surface-3), var(--surface-2));
+  color: var(--text-secondary);
+  position: relative;
+  z-index: var(--z-above);
+  padding: 0;
+}
+footer::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, var(--primary-500), var(--accent-500));
+  z-index: var(--z-above);
+}
+footer a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all var(--duration-normal) var(--ease-out-quart);
+}
+footer a:hover {
+  color: var(--primary-400);
 }
 .footer-content {
   display: flex;
-  flex-wrap: wrap; /* Ensure responsiveness */
-  justify-content: space-around; /* Space out columns */
-  margin-bottom: 20px; /* Add spacing between content and copyright */
+  flex-wrap: wrap;
+  padding: var(--space-xl) 0;
+  position: relative;
 }
 .footer-column {
-  flex: 1 1 300px; /* Ensure columns are responsive */
-  margin: 10px;
-}
-.footer-column h3 {
-  position: relative; /* Position the heading relative to the underline */
-  margin-bottom: 15px; /* Add spacing below the heading */
-  font-size: 1.2rem; /* Adjust font size */
-  color: var(--primary-500); /* Use a consistent color for the heading */
-  text-align: center; /* Center-align the heading */
+  flex: 1 1 100%;
+  padding: 0 var(--space-md);
+  margin-bottom: var(--space-lg);
 }
 
-.footer-column h3:after {
-  content: ""; /* Add an empty content for the underline */
-  display: block; /* Make it a block element */
-  width: 50px; /* Set the width of the underline */
-  height: 3px; /* Set the height of the underline */
-  background-color: purple; /* Set the color of the underline */
-  margin: 5px auto 0; /* Center the underline and add spacing */
+.footer-column h3 {
+  font-family: var(--heading-font);
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+  position: relative;
+  padding-bottom: var(--space-xs);
+  color: var(--text-primary);
+  display: inline-block;
+}
+
+.footer-column h3::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--primary-500), transparent);
+  bottom: 0;
+  left: 0;
+  border-radius: var(--radius-full);
 }
 
 .footer-column p {
-  margin-bottom: 15px;
-  color: var(--text-secondary);
+  color: var(--text-tertiary);
+  line-height: 1.6;
+  margin-bottom: var(--space-sm);
+  font-size: 1.4rem;
 }
+
 
 .footer-links {
   list-style: none; /* Remove bullet points */
   padding: 0;
+  margin: 0;
 }
 
 .footer-links li {
-  margin-bottom: 5px;
+  margin-bottom: var(--space-xs);
+  transition: transform var(--duration-normal) var(--ease-out-quart);
+}
+.footer-links li:hover {
+  transform: translateX(5px);
 }
 
 .footer-links a {
-  color: var(--primary-500); /* Link color */
-  text-decoration: none; /* Remove underline */
+  display: inline-block;
+  padding: var(--space-xs) 0;
+  position: relative;
+  transition: all var(--duration-normal) var(--ease-out-quart);
 }
 
 .footer-links a:hover {
   text-decoration: underline; /* Add underline on hover */
+  color: var(--primary-400);
 }
 
-.contact-info i {
-  margin-right: 5px;
+.footer-links a::before {
+  content: '\f054';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  font-size: 1rem;
+  margin-right: var(--space-sm);
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all var(--duration-normal) var(--ease-out-quart);
 }
-.contact-info i {
-  margin-right: 10px;
+.footer-links a:hover::before {
+  opacity: 1;
+  transform: translateX(0);
   color: var(--primary-500);
-  /*var(--primary);*/
-  /* Replaced with CSS Variable */
+}
+.contact-info {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--space-md);
 }
 
-footer {
-  background-color: var(--neutral-900);
-  /*var(--dark);*/
-  /* Replaced with CSS Variable */
-  color: var(--text-primary);
-  /*white;*/
-  /* Replaced with CSS Variable */
-  padding: 50px 0 20px;
+.contact-info i {
+  width: 16px;
+  margin-right: var(--space-md);
+  color: var(--primary-500);
+  font-size: 1.6rem;
+  transform: translateY(2px);
 }
-/* Responsive Styles for Mobile Screens */
-/* Responsive Styles for Mobile Screens */
-@media (max-width: 768px) {
-    footer .container {
-        flex-wrap: nowrap; /* Prevent wrapping */
-        justify-content: space-around; /* Center columns */
-    }
+.contact-info p {
+  margin: 0;
+}
 
-    footer .footer-column {
-        flex: 1 1 45%; /* Two columns side by side */
-        text-align: center; /* Center-align text for better readability */
-    }
-}
+
 
 .copyright {
-  margin-top: 20px; /* Add spacing above copyright */
-  font-size: 0.9rem; /* Adjust font size */
+  margin-top: var(--space-sm);
+  color: var(--text-tertiary);
+  font-size: 1.3rem;
+  opacity: 0.8;
 }
 
 .view-gallery {
@@ -1563,15 +1607,183 @@ footer {
   }
 }
 .technical-team {
-  margin-top: 10px; /* Add spacing above the technical team section */
-  font-size: 0.9rem; /* Adjust font size */
-}
-.technical-team a {
-  color: var(--primary-500); /* Link color */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold; /* Make links bold */
+  width: 100%;
+  text-align: center;
+  padding: var(--space-md) 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--surface-1);
 }
 
+.technical-team p {
+  margin-bottom: var(--space-sm);
+  font-size: 1.4rem;
+  color: var(--text-tertiary);
+}
+
+.technical-team a {
+  color: var(--primary-400);
+  font-weight: 500;
+  transition: all var(--duration-normal) var(--ease-out-quart);
+  position: relative;
+}
 .technical-team a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  color: var(--primary-300);
+}
+.technical-team a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--primary-300);
+  transition: width var(--duration-normal) var(--ease-out-quart);
+}
+
+.technical-team a:hover::after {
+  width: 100%;
+}
+
+/* Mobile - Compact & Elegant */
+@media (max-width: 767px) {
+  footer {
+      padding: 0;
+  }
+  
+  .footer-content {
+      padding: var(--space-lg) var(--space-sm);
+  }
+  
+  .footer-column {
+      margin-bottom: var(--space-md);
+      text-align: center;
+  }
+  
+  .footer-column:last-child {
+      margin-bottom: var(--space-sm);
+  }
+  
+  .footer-column h3 {
+      font-size: 1.6rem;
+      margin-bottom: var(--space-sm);
+  }
+  
+  .footer-column h3::after {
+      width: 80px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: linear-gradient(90deg, transparent, var(--primary-500), transparent);
+  }
+  
+  .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--space-xs);
+  }
+  
+  .footer-links li {
+      margin: 0;
+  }
+  
+  .footer-links a {
+      padding: var(--space-xs) var(--space-sm);
+      font-size: 1.3rem;
+      border-radius: var(--radius-sm);
+      background: rgba(255, 255, 255, 0.05);
+  }
+  
+  .footer-links a:hover {
+      background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-links a::before {
+      display: none;
+  }
+  
+  .footer-links li:hover {
+      transform: none;
+  }
+  
+  .contact-info {
+      justify-content: center;
+      margin-bottom: var(--space-sm);
+  }
+  
+  .contact-info i {
+      width: auto;
+      font-size: 1.4rem;
+  }
+  
+  .contact-info p {
+      font-size: 1.3rem;
+  }
+  
+  .technical-team {
+      padding: var(--space-md) var(--space-sm);
+  }
+  
+  .technical-team p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+  }
+  
+  .copyright {
+      font-size: 1.1rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-content {
+      padding: var(--space-xl) var(--space-md);
+  }
+  
+  .footer-column {
+      flex: 1 1 40%;
+  }
+  
+  .footer-column:last-child {
+      flex: 1 1 100%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .footer-content {
+      padding: var(--space-2xl) var(--space-xl);
+  }
+  
+  .footer-column {
+      flex: 1 1 0;
+      padding: 0 var(--space-lg);
+  }
+  
+  .contact-info i {
+      transform: translateY(4px);
+  }
+}
+
+/* Add subtle animation for the footer reveal */
+@media (min-width: 768px) {
+  .footer-column {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.6s ease-out forwards;
+  }
+  
+  .footer-column:nth-child(2) {
+      animation-delay: 0.2s;
+  }
+  
+  .footer-column:nth-child(3) {
+      animation-delay: 0.4s;
+  }
+  
+  @keyframes fadeInUp {
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
 }
