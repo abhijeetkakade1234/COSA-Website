@@ -1,0 +1,270 @@
+        <!-- TechGuru Section-->
+        <section id="techguru" class="techguru">
+            <div class="container">
+                <div class="section-title">
+                    <div class="about-text">
+                        <h3>TechGuru Registration</h3>
+                        <h2>
+                            Register for our flagship technical competitions and showcase your
+                            skills
+                        </h2>
+                    </div>
+                </div>
+                <div class="techguru-games"> -->
+                    <!-- Game 1 -->
+                    <!-- <div class="game-card" data-event="project">
+                        <div class="game-img">
+                            <img src="https://res.cloudinary.com/dxomzjhhj/image/upload/v1742800654/xds20xkd0r7zxjnzy1ap.jpg"
+                                alt="Project Competition" loading="lazy" />
+                        </div>
+                        <div class="game-content">
+                            <h3 style="text-align: center;">Project Competition</h3>
+                            <p style="text-align: center;"><strong>Showcase innovative project ideas and
+                                    implementations</strong></p>
+                            <div class="game-buttons">
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="rules-project">
+                                        <span><i class="fas fa-gavel"></i> Rules</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="rules-project"></div>
+                                </div>
+
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="time-date-project">
+                                        <span><i class="fas fa-calendar"></i> Time & Date</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="time-date-project"></div>
+                                </div> -->
+                                <!-- ############################### -->
+                                <!-- <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="labs-project">
+                                        <span><i class="fas fa-flask"></i> Labs</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="labs-project"></div>
+                                </div>
+                            </div>
+                            <div style="text-align: center; margin-top: 20px">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMshiyf6oap2ZLhNnPQ1pMEqRmZuHhNnkzgREvke_apOvRiQ/viewform"
+                                    class="btn">Register Now</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Game 2 -->
+                    <!-- <div class="game-card" data-event="coding">
+                        <div class="game-img">
+                            <img src="https://res.cloudinary.com/dxomzjhhj/image/upload/v1742800654/mhieuhs0jfsrqfxgipdp.jpg"
+                                alt="Coding Competition" loading="lazy" />
+                        </div>
+                        <div class="game-content">
+                            <h3 style="text-align: center;">Coding Competition</h3>
+                            <p style="text-align: center;"><strong>Test your programming skills in multiple challenging
+                                    rounds</strong></p>
+                            <div class="game-buttons">
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="rules-coding">
+                                        <span><i class="fas fa-gavel"></i> Rules</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="rules-coding"></div>
+                                </div>
+
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="time-date-coding">
+                                        <span><i class="fas fa-calendar"></i> Time & Date</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="time-date-coding"></div>
+                                </div> -->
+                                <!-- ############################ -->
+                                <!-- <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="labs-coding">
+                                        <span><i class="fas fa-flask"></i> Labs</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="labs-coding"></div>
+                                </div>
+                            </div>
+                            <div style="text-align: center; margin-top: 20px">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdF3ZJvXrSKp0ZKBQsd91o431M439TsItOhwZjWApeSto9b-w/viewform"
+                                    class="btn">Register Now</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Game 3 -->
+                    <!-- <div class="game-card" data-event="neoncricket">
+                        <div class="game-img">
+                            <img src="https://res.cloudinary.com/dxomzjhhj/image/upload/v1742800654/d7uw1kpwqr9nuudaxsdx.jpg"
+                                alt="Neon Cricket" loading="lazy" />
+                        </div>
+                        <div class="game-content">
+                            <h3 style="text-align: center;">Neon Cricket</h3>
+                            <p style="text-align: center;"><strong>Experience CRICKET like NEVER before,where every shot
+                                    GLOWS</strong>
+                            </p>
+                            <div class="game-buttons">
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="rules-neoncricket">
+                                        <span><i class="fas fa-gavel"></i> Rules</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="rules-neoncricket"></div>
+                                </div>
+
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="time-date-neoncricket">
+                                        <span><i class="fas fa-calendar"></i> Time & Date</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="time-date-neoncricket"></div>
+                                </div> -->
+                                <!--################################################################### -->
+                                <!-- <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="labs-neoncricket">
+                                        <span><i class="fas fa-flask"></i> Labs</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="labs-neoncricket"></div>
+                                </div>
+                            </div>
+                            <div style="text-align: center; margin-top: 20px">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSczyQBTkDXXpli2tSydmF1KGQM_fnBi4IFrWzBcMEGTYg8-kA/viewform"
+                                    class="btn">Register Now</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Game 4 -->
+                    <!-- <div class="game-card" data-event="roadies">
+                        <div class="game-img">
+                            <img src="https://res.cloudinary.com/dxomzjhhj/image/upload/v1742800653/q85tcsay0rspmhxk8d8n.jpg"
+                                alt="Roadies" loading="lazy" />
+                        </div>
+                        <div class="game-content">
+                            <h3 style="text-align: center;">Roadies</h3>
+                            <p style="text-align: center;"><strong>Team-based challenge with multiple elimination
+                                    rounds</strong></p>
+                            <div class="game-buttons">
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="rules-roadies">
+                                        <span><i class="fas fa-gavel"></i> Rules</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="rules-roadies"></div>
+                                </div>
+
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="time-date-roadies">
+                                        <span><i class="fas fa-calendar"></i> Time & Date</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="time-date-roadies"></div>
+                                </div> -->
+                                <!-- ########`####################### -->
+                                <!-- <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="labs-roadies">
+                                        <span><i class="fas fa-flask"></i> Labs</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="labs-roadies"></div>
+                                </div>
+                            </div>
+                            <div style="text-align: center; margin-top: 20px">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScJptz1b6ZBY9w2n_pY83No5QZt4dWcB91t6Uk6z-SV-5gdEQ/viewform"
+                                    class="btn">Register Now</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Game 5 -->
+                    <!-- <div class="game-card" data-event="aiprompting">
+                        <div class="game-img">
+                            <img src="https://res.cloudinary.com/dxomzjhhj/image/upload/v1742800654/zsxaod0b9cj0c7urrpy3.jpg"
+                                alt="AI Prompting" loading="lazy" />
+                        </div>
+                        <div class="game-content">
+                            <h3 style="text-align: center;">AI Prompting</h3>
+                            <p style="text-align: center;"><strong>Master the art of AI prompt engineering across
+                                    multiple
+                                    formats</strong></p>
+                            <div class="game-buttons">
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="rules-aiprompting">
+                                        <span><i class="fas fa-gavel"></i> Rules</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="rules-aiprompting"></div>
+                                </div>
+
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="time-date-aiprompting">
+                                        <span><i class="fas fa-calendar"></i> Time & Date</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="time-date-aiprompting"></div>
+                                </div> -->
+                                <!-- ######################## -->
+                                <!-- <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="labs-aiprompting">
+                                        <span><i class="fas fa-flask"></i> Labs</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="labs-aiprompting"></div>
+                                </div>
+                            </div>
+                            <div style="text-align: center; margin-top: 20px">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtHg3TF-b4AMBtesSTKmxnBJfgQHyePsdarjqi6G3y4g5Ksw/viewform"
+                                    class="btn">Register Now</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Game 6 -->
+                    <!-- <div class="game-card" data-event="stumbleguys">
+                        <div class="game-img">
+                            <img src="https://res.cloudinary.com/dxomzjhhj/image/upload/v1742800654/ouvupeji1qsi7ox7otsh.jpg"
+                                alt="Stumble Guys" loading="lazy" />
+                        </div>
+                        <div class="game-content">
+                            <h3 style="text-align: center;">Stumble Guys</h3>
+                            <p style="text-align: center;"><strong>Compete in the ULTIMATE SURVIVAL GAME
+                                    TOURNAMENT</strong>
+                            </p>
+                            <div class="game-buttons">
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="rules-stumbleguys">
+                                        <span><i class="fas fa-gavel"></i> Rules</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="rules-stumbleguys"></div>
+                                </div>
+
+                                <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="time-date-stumbleguys">
+                                        <span><i class="fas fa-calendar"></i> Time & Date</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="time-date-stumbleguys"></div>
+                                </div> -->
+                                <!-- ######################## -->
+                                <!-- <div class="dropdown-container">
+                                    <button class="btn-toggle" data-content="labs-stumbleguys">
+                                        <span><i class="fas fa-flask"></i> Labs</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-content" id="labs-stumbleguys"></div>
+                                </div>
+                            </div>
+                            <div style="text-align: center; margin-top: 20px">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfHmIiw0bsKqP8izqnWm94oGXliCHATdPjoSVX6iOPbJPLnnQ/viewform"
+                                    class="btn">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
